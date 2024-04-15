@@ -4,6 +4,9 @@ public class Tabs {
     public static class MedianOfTwoSortedArrays {
         public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             int totalLength = nums1.length + nums2.length;
+            if (totalLength==0) {
+                return 0;
+            }
             if (totalLength % 2 == 0) {
                 return (findKthElement(nums1, 0, nums2, 0, totalLength / 2) + findKthElement(nums1, 0, nums2, 0, totalLength / 2 + 1)) / 2.0;
             } else {

@@ -5,7 +5,6 @@ import java.util.Random;
 import zigzag.*;
 import tabs.*;
 import threesum.*;
-import matrix.*;
 
 import static matrix.Matrix.SpiralMatrixTraversal.printSpiralMatrix;
 
@@ -40,8 +39,8 @@ public class Tests {
         selectionContext.executeStrategy(arr.clone());
     }
     public static void Test2(){
-        System.out.println(zigzag.convert("PAYPALISHIRING",3));
-        System.out.println(zigzag.convert("PAYPALISHIRING",4));
+        System.out.println(Zigzag.convert("PAYPALISHIRING",3));
+        System.out.println(Zigzag.convert("PAYPALISHIRING",4));
     }
     public static void Test3(){
         Tabs.MedianOfTwoSortedArrays solution = new Tabs.MedianOfTwoSortedArrays();

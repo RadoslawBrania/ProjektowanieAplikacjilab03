@@ -1,6 +1,6 @@
 package zigzag;
 
-public class zigzag {
+public class Zigzag {
     public static String convert(String s, int numRows) {
         if (numRows == 1 || numRows >= s.length()) {
             return s;
