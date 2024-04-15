@@ -116,7 +116,7 @@ public class Tests {
         Random random = new Random();
         for (int i = 0; i < arr.length; i++) arr[i] = random.nextInt();
         Tests.Test(arr);
-    };
+    }
     public static void TestOptimistic(){
         int[] arr = new int[10000];
 
